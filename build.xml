@@ -1,5 +1,5 @@
 <project name="Hello" default="war" basedir="..">
-    <property file="${root.dir}/build.properties"/>
+    <property file="/hello.ant.khudolii/build.properties"/>
     <path id="classpath">
         <fileset dir="${root.dir}/${lib.dir}" includes="servlet-api.jar"/>
     </path>
